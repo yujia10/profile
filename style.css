@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&family=Nunito:wght@200;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 body {
   background-color: #F7F9FC;
-  color: #1f5272;
-  font-family: 'Lora', serif;
-  font-size: 20px;
+  color: #40514E;
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -40,10 +40,11 @@ body {
   text-align: center;
 }
 
-h1, h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #8AC6D1;
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
   letter-spacing: 1.5px;
+  margin-top: 0;
 }
 
 h1 {
@@ -55,27 +56,32 @@ h3 {
   font-weight: 600;
 }
 
+p {
+  padding: 10px 0;
+}
+
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #65d5bb;
-  font-weight: 600;
-  font-size: 16px;
+  color: #11999E;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 .btn-blue {
-  background-color: #636be3;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   color: white;
-  padding: 15px 20px;
-  border-radius: 4px;
+  padding: 10px 15px;
+  border-radius: 8px;
 }
 
 .btn-blue:hover {
-  background-color: #8AC6D1;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
 }
 
 .img-round {
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .list-inline {
@@ -95,9 +101,9 @@ a {
 
 .list-inline i {
   font-size: 40px;
-  color: rgb(230, 230, 230);
+  color: #EAf6f6;
 }
 
 .list-inline i:hover {
-  color: #8AC6D1;
+  color: #66BFBF;
 }
